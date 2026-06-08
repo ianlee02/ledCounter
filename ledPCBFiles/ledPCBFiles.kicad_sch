@@ -165,146 +165,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Timer:LM555xN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -807,26 +667,10 @@
 		)
 	)
 	(junction
-		(at 121.92 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48f9a4c3-186b-45c7-9a54-01c0a8db6e3a")
-	)
-	(junction
 		(at 119.38 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e859c11f-c4e9-4aba-a8dd-cb0b021a2538")
-	)
-	(wire
-		(pts
-			(xy 68.58 81.28) (xy 109.22 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc32611-1d00-423a-9738-f1852c82c973")
 	)
 	(wire
 		(pts
@@ -847,16 +691,6 @@
 			(type default)
 		)
 		(uuid "59b3c20f-47bb-438e-afaa-e27edf90cf0b")
-	)
-	(wire
-		(pts
-			(xy 68.58 73.66) (xy 68.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "643584c3-bec6-40ee-969a-480651dee406")
 	)
 	(wire
 		(pts
@@ -900,33 +734,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 71.12) (xy 121.92 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a97bb5b0-782d-4c29-b42e-0796495e7ddd")
-	)
-	(wire
-		(pts
-			(xy 121.92 62.23) (xy 121.92 71.12)
+			(xy 121.92 62.23) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce3e7b5b-9bfb-4d6b-b519-23774ca51736")
-	)
-	(wire
-		(pts
-			(xy 121.92 71.12) (xy 121.92 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6cab02a-e0de-4a17-91e5-7cb02b625ac6")
 	)
 	(symbol
 		(lib_id "Timer:LM555xN")
@@ -1021,88 +835,6 @@
 			(project "ledPCBFiles"
 				(path "/4f60fb88-ed3b-40be-bc71-757dad150f17"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30ed22e8-ff09-4aca-9e75-5df94bc7782e")
-		(property "Reference" "R1"
-			(at 71.12 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 71.12 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.802 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7e71fbcb-e236-4b8b-a798-00c0314d0359")
-		)
-		(pin "1"
-			(uuid "682448c7-a312-438a-bf3e-0552d0408c55")
-		)
-		(instances
-			(project "ledPCBFiles"
-				(path "/4f60fb88-ed3b-40be-bc71-757dad150f17"
-					(reference "R1")
 					(unit 1)
 				)
 			)
