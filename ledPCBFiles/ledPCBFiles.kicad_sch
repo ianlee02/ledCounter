@@ -807,10 +807,26 @@
 		)
 	)
 	(junction
+		(at 121.92 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f9a4c3-186b-45c7-9a54-01c0a8db6e3a")
+	)
+	(junction
 		(at 119.38 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e859c11f-c4e9-4aba-a8dd-cb0b021a2538")
+	)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc32611-1d00-423a-9738-f1852c82c973")
 	)
 	(wire
 		(pts
@@ -831,6 +847,16 @@
 			(type default)
 		)
 		(uuid "59b3c20f-47bb-438e-afaa-e27edf90cf0b")
+	)
+	(wire
+		(pts
+			(xy 68.58 73.66) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643584c3-bec6-40ee-969a-480651dee406")
 	)
 	(wire
 		(pts
@@ -874,13 +900,33 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 62.23) (xy 121.92 73.66)
+			(xy 68.58 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97bb5b0-782d-4c29-b42e-0796495e7ddd")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce3e7b5b-9bfb-4d6b-b519-23774ca51736")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cab02a-e0de-4a17-91e5-7cb02b625ac6")
 	)
 	(symbol
 		(lib_id "Timer:LM555xN")
