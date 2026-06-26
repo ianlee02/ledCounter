@@ -4062,7 +4062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "5u"
 			(at 99.06 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
