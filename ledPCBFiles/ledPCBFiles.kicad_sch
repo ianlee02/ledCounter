@@ -1709,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 95.25) (xy 186.69 95.25)
+			(xy 144.78 95.25) (xy 186.69 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3805,7 +3805,7 @@
 	)
 	(symbol
 		(lib_id "power:+6V")
-		(at 165.1 95.25 0)
+		(at 144.78 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3816,7 +3816,7 @@
 		(fields_autoplaced yes)
 		(uuid "de41cafd-dc96-42e5-a6e0-b4a88c777d4f")
 		(property "Reference" "#PWR012"
-			(at 165.1 99.06 0)
+			(at 144.78 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3827,7 +3827,7 @@
 			)
 		)
 		(property "Value" "+6V"
-			(at 165.1 90.17 0)
+			(at 144.78 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3837,7 +3837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 95.25 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 95.25 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3859,7 +3859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+6V\""
-			(at 165.1 95.25 0)
+			(at 144.78 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
