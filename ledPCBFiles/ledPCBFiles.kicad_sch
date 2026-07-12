@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Schematic for 4-Bit LED Counter")
-		(date "2026-06-07")
+		(date "2026-07-12")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS161"
